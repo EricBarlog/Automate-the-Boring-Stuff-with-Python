@@ -1,5 +1,7 @@
 # Test File
 
-print('spam' + 'spamspam')
-print('spam' * 3)
-print('I have eaten ' + str(99) + ' burritos')
+import random
+for i in range(5):
+    print(random.randint(0, 10))
+
+    
