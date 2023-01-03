@@ -1,7 +1,4 @@
 # Test File
 
-import random
-for i in range(5):
-    print(random.randint(0, 10))
+print('cats', 'dogs', 'mice', sep=', ')
 
-    
