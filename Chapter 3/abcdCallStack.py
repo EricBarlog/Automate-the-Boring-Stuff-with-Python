@@ -3,7 +3,7 @@
 def a():
     print('a() starts')
     b()
-    c()
+    d()
     print('a() returns')
 
 def b():
