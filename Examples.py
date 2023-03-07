@@ -1,14 +1,7 @@
 # Test File
 
-def spam(divideBy):
+spam = ['cat', 'bat', 'rat', 'elephant']
 
-    return 42 / divideBy
+print('Hello, ' + spam[0] + '!')
 
-
-try:
-    print(spam(2))
-    print(spam(12))
-    print(spam(0))
-    print(spam(1))
-except ZeroDivisionError:
-    print('Error: Invalid Arguement')
+print(spam[:])
