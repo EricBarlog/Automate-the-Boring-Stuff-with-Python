@@ -1,8 +1,8 @@
-spam = {'color': 'red', 'age': 42}
-for v in spam.values():
-    print(v)
-for k in spam.keys():
-    print(k)
-for i in spam.items():
-    print(i)
-list(spam.keys())
+print('''Dear Alice,
+
+Eve's cat has been arrested for catnapping, cat burglary, and extortion.
+
+Sincerely,
+Bob''')
+
+"""This is a multiline comment to explain what print does"""
