@@ -43,4 +43,3 @@ if len(matches) > 0:
     print('\n'.join(matches))
 else:
     print('No phone numbers or email addresses found.')
-    
